@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "QuranCompanion",
-    "slug": "QuranCompanion",
+    "slug": "rafiq-al-quran",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -41,11 +41,23 @@
         }
       ],
       "expo-audio",
-      "expo-font"
+      "expo-font",
+      "expo-image"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "a7ca8914-9e3d-4f41-a991-6b4faa3fc09a"
+      }
+    },
+    "owner": "rafiq-al-quran-dounia2303"
   }
 }
